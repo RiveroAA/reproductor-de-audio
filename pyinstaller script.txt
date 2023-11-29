@@ -1,0 +1,3 @@
+pyinstaller --icon=icono.ico --onefile --windowed --add-data "C:/Users/estudiante/Documents/Escuela/ReproductorPython/icono.ico;." --add-data "C:/Users/estudiante/Documents/Escuela/ReproductorPython/config.ini;." --add-data "C:/Users/estudiante/Documents/Escuela/ReproductorPython/images/*;images" reproductor2.py
+
+ESTO ES LO QUE SE USA PARA ARMAR UN ARCHIVO .EXE A PARTIR DE UN ARCHIVO .PY SETTEANDO LA RUTA DE CADA ARCHIVO NECESARIO.
